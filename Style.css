@@ -1,0 +1,108 @@
+#about {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  #projects {
+    text-align: center;
+    padding-bottom: 50px 0;
+  }
+  
+  #projects h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  #skills {
+    text-align: center;
+    padding-bottom: 50px 0;
+  }
+  
+  #skills h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #000; /* Change color as needed */
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media screen and (max-width: 768px) {
+    .profile-pic img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .text {
+      max-width: 80%;
+    }
+  }
+
+  #contact {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ff007b; /* Pink background color */
+    padding: 10px;
+  }
+  
+  .social-icon img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .tooltip-inner {
+    background-color: #ff007b; /* Pink tooltip background color */
+  }
+
+  body {
+    padding-top: 56px; /* Adjust body padding to accommodate the fixed navbar */
+  }
+  
+  .navbar {
+    transition: top 0.5s ease; /* Smooth transition for sticky effect */
+  }
+  
+  .navbar a {
+    color: #fff; /* White text color for links */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Bold font weight for brand name */
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Align navbar links to the right */
+  }
+  
+  
